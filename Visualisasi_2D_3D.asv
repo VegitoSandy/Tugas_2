@@ -1,0 +1,7 @@
+% Misalkan x = [0:0.1:pi] dan y = sin(x)
+plot(x,y);
+semilogx(x,y);
+semilogy(x,y);
+loglog(x,y);
+fill(x,y,'r');
+contour(x,y,z,10);  
